@@ -21,7 +21,7 @@
       "apple": "提供情緒價値",
       "taojiu": "接口文檔維護",
       "yuuluo": "NONE BOT開發",
-      "haochi": "服務器對接",
+      "haochi": "伺服器對接",
       "tenshi": "産品工程 / 交互架構"
     }
   },
@@ -269,7 +269,7 @@
     "panel": "訊息",
     "turboPermission": "用戶權限",
     "botManager": "BOT管理",
-    "serverRequests": "服務器請求統計",
+    "serverRequests": "伺服器請求統計",
     "arcade": {
       "title": "機廳相關",
       "info": "機廳信息",
@@ -295,6 +295,11 @@
       "title": "功能票",
       "currentTickets": "當前持有的功能票",
       "setTickets": "設置功能票"
+    },
+    "upload": {
+      "title": "查分器上傳",
+      "divingFishUpload": "水魚查分器上傳",
+      "lxnsUpload": "落雪查分器上傳"
     },
     "qrCommand": "指令二維碼",
     "friends": {
@@ -426,16 +431,18 @@
     }
   },
   "serverRequests": {
-    "title": "服務器請求統計",
+    "title": "伺服器請求統計",
     "contact": {
       "1": "響應數據的「Z-LIB」壓縮跳過率與請求重試次數可以反應當前網絡情況。",
       "2": "壓縮跳過率超過「>3%」時，可能會出現網絡不穩定現象。",
-      "3": "請求重試率和失敗率較高時，網絡或服務器可能存在問題。"
+      "3": "請求重試率和失敗率較高時，網絡或伺服器可能存在問題。"
     },
     "totalRequests": "一小時內總包數",
     "totalException": "一小時內總異常包數",
     "totalExceptionRate": "一小時內異常包數占比",
     "totalZlibSkipped": "Z-LIB壓縮跳過數量",
+    "totalServerNoCookie": "伺服器無Cookie數量",
+    "totalClientMissCookie": "客戶端缺失Cookie數量",
     "totalRetry": "嘗試重試數量",
     "totalPanic": "嘗試失敗數量",
     "inCache": "緩存內",
@@ -572,7 +579,7 @@
     "hourSuffix": " 小時",
     "maiStatistics": {
       "title": "maimai 統計資料",
-      "serverRanking": "服務器排名",
+      "serverRanking": "伺服器排名",
       "noData": "60天內出勤數據不足呢，快去出勤吧！",
       "averageAchievement": "平均完成度",
       "maxCombo": "最多連擊數",
@@ -609,7 +616,7 @@
     "favoritePhotos": "我的收藏",
     "notice": {
       "title": "注意",
-      "content": "服務器相片緩存將會在7日後删除，如需保存請添加至收藏或右鍵長按下載。該相片功能僅適用於Turbo加速盒子機台。"
+      "content": "伺服器相片緩存將會在7日後删除，如需保存請添加至收藏或右鍵長按下載。該相片功能僅適用於Turbo加速盒子機台。"
     },
     "noData": "你還沒有任何相片呢",
     "favorite": {
@@ -704,6 +711,10 @@
       "1": "請在使用權限之前愼重考慮。您的一切操作都將被記錄，您後續行為所引發的所有後果以及輿論影響將由您負責。TurboServlet 有權根據",
       "2": "對您采取措施。"
     },
+    "notWorking": {
+      "title": "注意",
+      "content": "該功能暫時無法作用於機台，若無法修復，在未來可能會被移除。"
+    },
     "toast": {
       "jpgWarning": "請選擇 jpg 格式的圖片",
       "sizeWarning": "圖片大小不能超過 5MB",
@@ -775,6 +786,44 @@
     },
     "toast": {
       "success": "重置成功"
+    }
+  },
+  "achievementUpload": {
+    "title": "上傳密鑰綁定",
+    "placeholder": "成績匯入 Token",
+    "button": {
+      "submit": "綁定",
+      "delete": "解除綁定"
+    },
+    "recordTime": "Token 匯入時間:",
+    "uploadNotice": {
+      "1": "請在使用之前慎重考慮。您的一切操作都將被記錄，您後續行為所引發的所有後果以及輿論影響將由您負責。TurboServlet 有權根據",
+      "2": "對您採取措施。"
+    },
+    "noData": "你還沒有上傳過數據哦~",
+    "table": {
+      "updateTime": "上傳時間",
+      "dataSource": "數據源",
+      "status": "狀態"
+    },
+    "warning": {
+      "title": "注意",
+      "divingContent": "該服務由第三方提供（www.diving-fish.com），TurboServlet 對該服務不承擔任何責任，請謹慎使用。",
+      "lxnsContent": "該服務由第三方提供（maimai.lxns.net），TurboServlet 對該服務不承擔任何責任，請謹慎使用。"
+    },
+    "toast": {
+      "success": "綁定成功",
+      "deleteSuccess": "解綁成功"
+    },
+    "badge": {
+      "ok": "成功",
+      "error": "失敗",
+      "unknown": "未知"
+    },
+    "dataSource": {
+      "musicDetail": "全部樂曲",
+      "userAll": "新紀錄",
+      "unknown": "未知數據源"
     }
   },
   "qrCommand": {
@@ -1045,11 +1094,11 @@
   },
   "requestHandler": {
     "loginError": "刷新Token失敗，請重新登入",
-    "timeoutError": "與服務器連接超時，請檢查網絡連接",
+    "timeoutError": "與伺服器連接超時，請檢查網絡連接",
     "badRequestError": "請求錯誤，請檢查請求參數是否存在或錯誤",
     "permissionError": "請求被拒絶，您的權限可能不足",
     "notFoundError": "請求的資源不存在，請檢查請求參數",
-    "internalServerError": "服務器內部錯誤，請稍後再試或聯繫管理員",
+    "internalServerError": "伺服器內部錯誤，請稍後再試或聯繫管理員",
     "bannedError": "該賬號已被封禁，請聯繫管理員",
     "unknownError": "未知錯誤，請稍後再試"
   },
