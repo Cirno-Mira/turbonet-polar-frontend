@@ -110,7 +110,7 @@ onMounted(() => {
         <div class="mt-1 mb-1 flex justify-between">
           <div class="ml-5 flex flex-col">
             <span class="font-bold">{{ $t('photos.favoritePhotos') }}</span>
-            <span class="text-xs">@2024 TurboServlet</span>
+            <span class="text-xs">@2026 TurboServlet</span>
           </div>
         </div>
         <div class="flex items-center">
