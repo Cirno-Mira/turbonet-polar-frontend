@@ -1,6 +1,6 @@
 {
   "index": {
-    "title": "一款游戏的控制面板。"
+    "title": "一款游戏的控制面板"
   },
   "indexButton": {
     "member": "进入控制页",
@@ -15,9 +15,9 @@
       "3": "在不畏难、不退缩、勇于创新和敢于行动的精神驱动下，塑造了这个非凡的创作。"
     },
     "devContext": {
+      "404": "手机APP开发",
       "ctrlcvs": "全栈总开发 / 总设计",
       "kiwi": "DBA / 解决方案工程师",
-      "404": "手机APP开发",
       "apple": "提供情绪价值",
       "taojiu": "接口文档维护",
       "yuuluo": "NONE BOT开发",
@@ -244,7 +244,7 @@
         },
         "5": {
           "beforeLink": "其他为执行 ",
-          "afterLink": " 而需要披露的信息。"
+          "afterLink": "而需要披露的信息。"
         }
       }
     },
@@ -298,8 +298,8 @@
     },
     "upload": {
       "title": "查分器上传",
-        "divingFishUpload": "水鱼查分器上传",
-        "lxnsUpload": "落雪查分器上传"
+      "divingFishUpload": "水鱼查分器上传",
+      "lxnsUpload": "落雪查分器上传"
     },
     "qrCommand": "指令二维码",
     "friends": {
@@ -703,8 +703,8 @@
       "content": "您的权限不足，暂无法使用此功能。"
     },
     "notWorking": {
-        "title": "注意",
-        "content": "该功能暂时无法作用于机台，若无法修复，在未来可能会被移除。"
+      "title": "注意",
+      "content": "该功能暂时无法作用于机台，若无法修复，在未来可能会被移除。"
     },
     "button": {
       "toDefault": "使用舞萌头像",
@@ -816,9 +816,9 @@
       "deleteSuccess": "解绑成功"
     },
     "badge": {
-        "ok": "成功",
-        "error": "失败",
-        "unknown": "未知"
+      "ok": "成功",
+      "error": "失败",
+      "unknown": "未知"
     },
     "dataSource": {
       "musicDetail": "全部乐曲",
@@ -1014,7 +1014,6 @@
       "or": "或者",
       "agent": "人工验证",
       "exception": "若以上方式您均无法验证身份，请向管理员提交邮件工单。"
-
     }
   },
   "supportSession": {
@@ -1094,7 +1093,6 @@
         "countdown": "关闭会话 ({seconds} 秒后自动提交)",
         "eliminated": "该会话已销毁"
       }
-
     }
   },
   "captchaSolver": {

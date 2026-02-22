@@ -1,6 +1,6 @@
 {
   "index": {
-    "title": "A control panel for a game."
+    "title": "A control panel for a game"
   },
   "indexButton": {
     "member": "Go to Control Page",
@@ -15,13 +15,14 @@
       "3": "Driven by a spirit that does not fear challenges, does not back down, dares to innovate, and dares to act, we have shaped this extraordinary creation."
     },
     "devContext": {
+      "404": "Mobile APP Developer",
       "ctrlcvs": "Full-stack Engineer / Main Designer",
       "kiwi": "DBA / solutions Engineer",
-      "404": "Mobile APP Developer",
       "apple": "Provides emotional support",
       "taojiu": "Documentation Maintenance",
       "yuuluo": "NONE BOT Developer",
-      "tenshi": "Product Engineering / IA"
+      "tenshi": "Product Engineering / IA",
+      "haochi": "Server Connection"
     }
   },
   "cooperatorInfo": {
@@ -243,7 +244,7 @@
         },
         "5": {
           "beforeLink": "Other information that must be disclosed in order to enforce ",
-          "afterLink": "."
+          "afterLink": "that needs to be disclosed."
         }
       }
     },
@@ -869,7 +870,8 @@
       "playing": "Currently Playing",
       "lastPlayTime": "{hour} hours ago",
       "userPage": "User Page",
-      "removeFriend": "Remove Friend"
+      "removeFriend": "Remove Friend",
+      "rival": "Battle Friends"
     },
     "removeFriendDialog": {
       "content": "Are you sure you want to remove {friend} from your friends?",
@@ -879,6 +881,11 @@
       "toast": {
         "success": "Friend successfully removed"
       }
+    },
+    "rivalDialog": {
+      "content": "Battle Friends are players shown at the bottom left of each song, providing a comparison of achievement rates with your friends.",
+      "remove": "Battle friend removed successfully.",
+      "success": "Battle friend added successfully."
     }
   },
   "addFriends": {

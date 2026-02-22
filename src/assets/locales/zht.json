@@ -1,6 +1,6 @@
 {
   "index": {
-    "title": "一款遊戲的控制面板。"
+    "title": "一款遊戲的控制面板"
   },
   "indexButton": {
     "member": "進入控制頁",
@@ -15,9 +15,9 @@
       "3": "在不畏難、不退縮、勇於創新和敢於行動的精神驅動下，塑造了這个非凡的創作。"
     },
     "devContext": {
+      "404": "手機APP開發",
       "ctrlcvs": "全棧總開發 / 總設計",
       "kiwi": "DBA / 解決方案工程師",
-      "404": "手機APP開發",
       "apple": "提供情緒價値",
       "taojiu": "接口文檔維護",
       "yuuluo": "NONE BOT開發",
@@ -870,7 +870,8 @@
       "playing": "正在遊玩",
       "lastPlayTime": "{hour}小時前",
       "userPage": "用戶主頁",
-      "removeFriend": "删除好友"
+      "removeFriend": "删除好友",
+      "rival": "對戰好友"
     },
     "removeFriendDialog": {
       "content": "你确定要删除 {friend} 的好友嗎？",
@@ -880,6 +881,11 @@
       "toast": {
         "success": "删除好友成功"
       }
+    },
+    "rivalDialog": {
+      "content": "對戰好友即為您的好友完成度的對比，在每首樂曲的左下角顯示的玩家。",
+      "remove": "已移除對戰好友",
+      "success": "已添加對戰好友"
     }
   },
   "addFriends": {
